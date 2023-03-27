@@ -4,8 +4,8 @@
 ## Profil
 | #               | Biodata           |
 | --------------- | ----------------- |
-| **Nama**        | Bilal AlHafidz    |
-| **NIM**         | 312110397         |
+| **Nama**        | Muhammad Farhan    |
+| **NIM**         | 312110128         |
 | **Kelas**       | TI.21.A.1         |
 | **Mata Kuliah** | Pemrograman Web 2 |
 
@@ -54,7 +54,7 @@ INSERT INTO `data_barang` (`id_barang`, `nama_barang`, `kategori_barang`, `gamba
 ![Data Barang] ![image](https://user-images.githubusercontent.com/92637117/227852368-76a98a06-0e2a-4434-980b-4b447b930817.png)
 
 
-## Membuat Program CRUD
+## Cara Membuat Program CRUD
 1. Buat folder Lab3Web pada root directory Web server (C:\xampp\htdocs)
 2. Kemudian buat file baru dengan nama `koneksi.php`, Lalu masukan kode berikut.
 
@@ -76,7 +76,7 @@ uncomment pada perintah var_dump($koneksi);
 ![Koneksi] ![koneksi2](https://user-images.githubusercontent.com/92637117/227852867-080c9989-c7ee-436e-890b-26932d0f747b.png)
 
 
-## Menampilkan Data (Read)
+## Cara Menampilkan Data (Read)
 - Buat file baru dengan nama `index.php`, Kemudian masukan kode berikut.
 
 ```php
@@ -184,7 +184,7 @@ $result = mysqli_query($koneksi, $query);
 ![Read] ![ss1](https://user-images.githubusercontent.com/92637117/227855869-9c6e18da-8b5f-4024-a5fe-a002645cf650.png)
 
 
-## Menambah Data (Create)
+## Cara Menambah Data (Create)
 - Buat file baru dengan nama `tambah.php`, Kemudian masukan kode berikut.
 
 ```html
@@ -287,7 +287,7 @@ $result = mysqli_query($koneksi, $query);
 
 - Maka hasilnya akan seperti berikut.
 
-![Create] ![ss3](https://user-images.githubusercontent.com/92637117/227856038-4d235b3b-2bfb-4e9d-9f88-cbbbf25211ea.png)
+![ss3](https://user-images.githubusercontent.com/92637117/227856038-4d235b3b-2bfb-4e9d-9f88-cbbbf25211ea.png)
 
 
 - Kemudian, tambahkan file baru dengan nama `proses.php` yang mana fungsi ini akan digunakan untuk memproses semuanya.
@@ -361,9 +361,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Jika berhasil, maka data baru sukses ditambahkan.
 
-![Proses-Tambah](img/proses-tambah.png)
+![ss2](https://user-images.githubusercontent.com/92637117/227857448-39fd0b7c-4071-4256-85c8-7485b214110d.png)
 
-## Mengubah Data (Update)
+
+## Cara Mengubah Data (Update)
 - Buat file baru dengan nama `ubah.php`, Kemudian masukan kode berikut.
 
 ```php
@@ -483,9 +484,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Maka hasilnya akan seperti berikut.
 
-![Update](img/update.png)
+![Update] ![ss4](https://user-images.githubusercontent.com/92637117/227857652-9ca6fba5-819f-485d-8858-5ac06de83483.png)
 
-## Menghapus Data (Delete)
+
+## Cara Menghapus Data (Delete)
 - Pada button delete, Ubah hrefnya ke `proses.php` dengan membawa 2 parameter yaitu id_barang dan aksi.
 - Tambahkan kode berikut ke dalam file `proses.php`.
 
@@ -504,6 +506,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Maka hasilnya akan seperti berikut.
 
-![Detele](img/delete.png)
+![ss5](https://user-images.githubusercontent.com/92637117/227858168-6dffd761-f920-4578-b7ab-96684c14f4be.png)
+
 
 # Terima Kasih!
