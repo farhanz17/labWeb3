@@ -108,7 +108,7 @@ $result = mysqli_query($koneksi, $query);
         <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
         <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
         <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-        </svg> --> Aplikasi CRUD Sederhana</h4> 
+        </svg> --> Hans-Box</h4> 
     </div>
     <div class="container">
       <h4 class="mt-4">
@@ -181,7 +181,8 @@ $result = mysqli_query($koneksi, $query);
 
 - Maka hasilnya akan seperti berikut.
 
-![Read](img/read.png)
+![Read] ![ss1](https://user-images.githubusercontent.com/92637117/227855869-9c6e18da-8b5f-4024-a5fe-a002645cf650.png)
+
 
 ## Menambah Data (Create)
 - Buat file baru dengan nama `tambah.php`, Kemudian masukan kode berikut.
@@ -286,7 +287,8 @@ $result = mysqli_query($koneksi, $query);
 
 - Maka hasilnya akan seperti berikut.
 
-![Create](img/create.png)
+![Create] ![ss3](https://user-images.githubusercontent.com/92637117/227856038-4d235b3b-2bfb-4e9d-9f88-cbbbf25211ea.png)
+
 
 - Kemudian, tambahkan file baru dengan nama `proses.php` yang mana fungsi ini akan digunakan untuk memproses semuanya.
 - Masukan kode berikut.
