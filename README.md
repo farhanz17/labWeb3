@@ -181,7 +181,7 @@ $result = mysqli_query($koneksi, $query);
 
 - Maka hasilnya akan seperti berikut.
 
-![Read] ![ss1](https://user-images.githubusercontent.com/92637117/227855869-9c6e18da-8b5f-4024-a5fe-a002645cf650.png)
+ ![ss1](https://user-images.githubusercontent.com/92637117/227855869-9c6e18da-8b5f-4024-a5fe-a002645cf650.png)
 
 
 ## Cara Menambah Data (Create)
